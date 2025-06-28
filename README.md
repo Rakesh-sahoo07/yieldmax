@@ -485,9 +485,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 📞 Support
 
 - **Documentation**: [docs.ai-yield-optimizer.com](https://docs.ai-yield-optimizer.com)
-- **Discord**: [Join our community](https://discord.gg/ai-yield-optimizer)
-- **Twitter**: [@AIYieldOpt](https://twitter.com/AIYieldOpt)
-- **Email**: support@ai-yield-optimizer.com
+- **Email**: gandhuisflying@gmail.com
 
 ---
 
