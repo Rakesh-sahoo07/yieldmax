@@ -1,0 +1,49 @@
+{
+  "name": "ai-powered-usdc-yield-optimizer",
+  "version": "1.0.0",
+  "description": "AI-Powered USDC Yield Optimizer on Chainlink CCIP (Sepolia ⇄ Fuji)",
+  "main": "hardhat.config.js",
+  "scripts": {
+    "compile": "hardhat compile",
+    "deploy:sepolia": "hardhat run scripts/deploy-yield-vault.js --network sepolia",
+    "deploy:fuji": "hardhat run scripts/deploy-yield-vault.js --network fuji",
+    "deploy:mumbai": "hardhat run scripts/deploy-yield-vault.js --network mumbai",
+    "configure:sepolia": "hardhat run scripts/configure-cross-chain.js --network sepolia",
+    "configure:fuji": "hardhat run scripts/configure-cross-chain.js --network fuji",
+    "configure:mumbai": "hardhat run scripts/configure-cross-chain.js --network mumbai",
+    "verify:sepolia": "hardhat run scripts/verify-yield-vault.js --network sepolia",
+    "verify:fuji": "hardhat run scripts/verify-yield-vault.js --network fuji",
+    "verify:mumbai": "hardhat run scripts/verify-yield-vault.js --network mumbai",
+    "automation:sepolia": "hardhat run scripts/setup-automation.js --network sepolia",
+    "automation:fuji": "hardhat run scripts/setup-automation.js --network fuji",
+    "automation:mumbai": "hardhat run scripts/setup-automation.js --network mumbai",
+    "test": "hardhat test",
+    "start": "hardhat node",
+    "clean": "hardhat clean",
+    "deploy:all": "npm run deploy:sepolia && npm run deploy:fuji",
+    "configure:all": "npm run configure:sepolia && npm run configure:fuji",
+    "setup:complete": "npm run deploy:all && npm run configure:all"
+  },
+  "keywords": [
+    "chainlink",
+    "ccip",
+    "yield",
+    "defi",
+    "ai",
+    "cross-chain",
+    "usdc"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "ethers": "^6.4.0",
+    "hardhat": "^2.19.0"
+  },
+  "dependencies": {
+    "@chainlink/contracts": "^1.4.0",
+    "@chainlink/contracts-ccip": "^1.6.0",
+    "@openzeppelin/contracts": "^4.9.6",
+    "dotenv": "^16.5.0"
+  }
+}
