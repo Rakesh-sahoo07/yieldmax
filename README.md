@@ -484,7 +484,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📞 Support
 
-- **Documentation**: [docs.ai-yield-optimizer.com](https://docs.ai-yield-optimizer.com)
+- **Presentation**: https://app.chroniclehq.com/share/6e798b3f-3a6b-4046-8d77-98be4f454494/a3594c1a-75cc-431c-8d1e-b6290594575e/intro
+
 - **Email**: gandhuisflying@gmail.com
 
 ---
